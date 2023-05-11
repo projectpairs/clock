@@ -68,6 +68,57 @@ h2{
     padding-top: 100px;
 }
 .bu{
-    padding-left: 72px;
-    padding-top: 101px;
+    padding-left: 715px;
+    padding-top: 141px;
 }
+
+.arrow-up {
+    background-color: #111;
+    color: #fff;
+    border: none;
+    border-radius: 30px;
+    padding: 17px 33px;
+    font-size: 22px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    box-shadow: 0 0 17px #fff;
+    background: transparent;
+    border: transparent;
+  }
+  
+  .arrow-up:hover {
+    box-shadow: 0 0 5px rgb(194, 20, 151), 0 0 25px rgb(194, 20, 151), 0 0 50px rgb(194, 20, 151), 0 0 100px rgb(194, 20, 151);
+  }
+
+  .arrow-down {
+    background-color: #111;
+    color: #fff;
+    border: none;
+    border-radius: 30px;
+    padding: 17px 33px;
+    font-size: 22px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    box-shadow: 0 0 17px #fff;
+    background: transparent;
+    border: transparent;
+  }
+  
+  .arrow-down:hover {
+    box-shadow: 0 0 5px rgb(209, 84, 0), 0 0 25px rgb(209, 84, 0), 0 0 50px rgb(209, 84, 0), 0 0 100px rgb(209, 84, 0);
+  }
+  .arrows{
+    margin-top: -156px;
+    margin-left: 660px;
+  }
+  .arrows-one{
+    margin-top: -160px;
+  }
+  .arrows-two{
+    margin-left: 225px;
+    margin-top: -62px;
+  }
+  .arrows-three{
+    margin-left: 452px;
+    margin-top: -62px;
+  }

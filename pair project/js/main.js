@@ -1,7 +1,7 @@
 var chrono = document.getElementById("chrono");
 var resetBtn = document.getElementById("reset");
 var stopBtn = document.getElementById("stop");
-var startBtn = document.getElementById("start");
+var startBtn = document.getElementById("start"); 
 
 var hours = 0;
 var minutes = 0;
@@ -74,3 +74,9 @@ function reset(){
 startBtn.addEventListener("click", start);
 stopBtn.addEventListener("click", stop);
 resetBtn.addEventListener("click", reset);
+
+
+arrowupone.onclick = myFunction(hours){
+   return hours+01;
+  };
+
